@@ -97,6 +97,6 @@ public class ContaDAO {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return (PreparedStatement) to;
+		return stm;
 	}
 }

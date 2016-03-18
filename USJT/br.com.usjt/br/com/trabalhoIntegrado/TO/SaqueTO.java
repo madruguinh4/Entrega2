@@ -8,7 +8,7 @@ public class SaqueTO extends Movimento {
 	private DispenserTO dispenserTO;
 	private int conta, agencia;
 
-	public SaqueTO(Movimento movimento) {
+	public SaqueTO() {
 		dispenserTO = new DispenserTO();
 	} 
 
